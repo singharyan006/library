@@ -1,0 +1,97 @@
+/* General page styling */
+body {
+    font-family: "Libertinus Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background: #F9F3EF;
+}
+
+/* Header section */
+header {
+    font-family: "Libertinus Mono", monospace;
+    background: #1B3C53;
+    color: #F9F3EF;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* "New Book" button in header */
+#new-book-btn {
+    font-family: "Libertinus Mono", monospace;
+    border: 2px solid #F9F3EF;
+    border-radius: 10px;
+    background-color: #456882;
+    color: #F9F3EF;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+/* Container for all book cards */
+#books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+/* Book card style */
+.book-card {
+    font-family: "Libertinus Mono", monospace;
+    background-color: #68676ad9; /* semi-transparent dark background */
+    padding: 1rem;
+    border: 2px solid #456882;
+    border-radius: 10px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F9F3EF;
+    text-align: center;
+}
+
+/* Style for buttons inside each book card */
+.book-card button {
+    font-family: "Libertinus Mono", monospace;
+    background: #F9F3ED;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.book-card button:hover {
+    background: #e0dbd6;
+}
+
+/* Dialog modal styling */
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+/* Backdrop behind dialog */
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Labels in form */
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Button section in form */
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
