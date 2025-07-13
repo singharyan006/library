@@ -40,7 +40,8 @@ A minimal, interactive book management web app built with HTML, CSS, and JavaScr
 ├── style.css
 ├── script.js
 ├── assets/
-│ └── preview.png
+   └── preview.png
+
 ```
 ---
 
